@@ -1,0 +1,1 @@
+avrdude -c atmelice_isp -p atmega328p -P usb -v -U flash:w:../out/debug/main
