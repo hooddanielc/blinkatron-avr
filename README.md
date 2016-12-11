@@ -13,7 +13,7 @@ ib main
 
 ## Upload the code
 
-This example uploads main target to atmega328p using the atmel ice programmer using avrdude.
+This example uploads main target to atmega328p using the atmel ice programmer and avrdude.
 
 ```
 avrdude -c atmelice_isp -p atmega328p -P usb -v -U flash:w:../out/debug/main
